@@ -1,0 +1,158 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1b5e20;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #81c784;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.home-page h2 {
+    color: #81c784;
+}
+
+.home-page .welcome {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.welcome .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1b5e20;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.welcome .button:hover {
+    background-color: #81c784;
+}
+
+/* Login and Register Styles */
+.login-register-container {
+    background-color: #1e1e1e;
+    padding: 20px;
+    margin: 50px auto;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.login-register-container h1 {
+    margin-top: 0;
+    color: #81c784;
+}
+
+.login-register-container label {
+    display: block;
+    margin-bottom: 10px;
+    color: #81c784;
+}
+
+.login-register-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    background-color: #2e2e2e;
+    color: white;
+    border-radius: 5px;
+}
+
+.login-register-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1b5e20;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.login-register-container button:hover {
+    background-color: #81c784;
+}
+
+.error {
+    color: #ff5252;
+}
+
+/* Event List Styles */
+.events .event {
+    background-color: #1e1e1e;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.events .event h3 {
+    margin-top: 0;
+    color: #81c784;
+}
+
+.events .event p {
+    margin: 5px 0;
+}
+
+.actions button {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.actions button:hover {
+  
